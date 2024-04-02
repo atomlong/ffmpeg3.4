@@ -1,12 +1,12 @@
 pkgbase = ffmpeg3.4
 	pkgdesc = Library to record, convert and stream audio and video (legacy v3.4 branch, with libavcodec v57)
 	pkgver = 3.4.13
-	pkgrel = 1
+	pkgrel = 2
 	url = https://ffmpeg.org
 	arch = aarch64
 	arch = i686
 	arch = x86_64
-	license = GPL3
+	license = GPL-3.0-only
 	makedepends = ladspa
 	makedepends = nasm
 	depends = alsa-lib

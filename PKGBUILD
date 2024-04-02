@@ -12,7 +12,7 @@
 
 pkgname='ffmpeg3.4'
 pkgver=3.4.13
-pkgrel=1
+pkgrel=2
 pkgdesc='Library to record, convert and stream audio and video (legacy v3.4 branch, with libavcodec v57)'
 arch=(
   'aarch64'
@@ -20,7 +20,7 @@ arch=(
   'x86_64'
 )
 url='https://ffmpeg.org'
-license=('GPL3')
+license=('GPL-3.0-only')
 depends=(
   'alsa-lib'
   'bzip2'
